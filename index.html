@@ -24,18 +24,23 @@
 # Useful Programmer
 ## a markdown previewer
 [Learn more about UsefulProgrammer.org](http://www.usefulprogrammer.org).
+
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
+
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
-\`This is an example of inline code\`
-\`\`\`
+
+`This is an example of inline code`
+
+```
 function exampleOf() {
   return multiLineCodeBlock;
 }
-\`\`\`
+```
+
 - This
 - is
 - an
@@ -43,8 +48,11 @@ function exampleOf() {
 - of
 - list
 - items
+
 > This is an example of block quote
-![Useful Programmer](https://i.pinimg.com/originals/ff/fb/32/fffb3234bf08d9615093a14aaa922510.jpg)
+
+![Useful Programmer](https://usefulprogrammer.org/wp-content/uploads/2020/05/00_Leonardo_da_Vinci_-_Ginevra_de_Benci.jpg)
+
 **This is an example of Bolded Text**`;
         let editorField = document.getElementById("editor");
         let previewElement = document.getElementById("preview");
